@@ -1,0 +1,74 @@
+\documentclass[12pt,letter,sans]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+\nopagenumbers{}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=.8]{geometry}
+\usepackage{url}
+\newcommand{\tab}[0]{\indent \indent}
+\newcommand{\enter}[0]{\\ \tab}
+\newcommand{\nextline}[0]{\\ \enter}
+\newcommand{\codeindent}[0]{\\ \enter \indent}
+\vspace{20pt}
+\firstname{Omar}
+\familyname{Raza}
+%% \title{Résumé}
+%\address{Computer Scientist}{Communicator}{Doer}
+\mobile{+1~(408)-642-9642}
+\email{razao@purdue.edu}
+\homepage{github.com/osterhagen}
+
+\addtolength{\voffset}{-50pt}
+\addtolength{\textheight}{110pt}
+\addtolength{\hoffset}{-10pt}
+\addtolength{\textwidth}{20pt}
+\addtolength{\footskip}{-.5in}
+%% Body
+\begin{document}
+%\vspace{40pt}
+\makecvtitle
+\vspace{-30pt}
+{Computer Scientist --}{ Communicator --}{ Doer}
+\vspace{10pt}
+
+%education
+
+\section{Education}
+\cventry{2015--2019}{BS--Computer Science, Mathematics}{Purdue University}{West Lafayette, IN}{}{Specialization: Database and Information Systems, Machine Intelligence \\ Pursuing Entrepreneurship Certificate}  % arguments 3 to 6 can be left empty
+\cvitem{}{ \emph{Recipient of the Purdue University Presidential Merit Scholarship} }
+	\cventry{}{Relevant Course Work}{CS251 - Data Structures and Algorithms in C++}{CS250 - Computer Architecture}{CS240 - Programming in C, CS180 - Programming in Java, ENTR 200, Entrepreneurship}{}  % arguments 3 to 6 can be left empty
+
+
+% Projects
+\section{Projects}
+
+\cventry{}{gsh/mysh}{C}{github.com/osterhagen/gsh-mysh}{}{Created 2 shells with different memory allocation structures, both fully compatible and compilable from basic Unix/Linux OS while supporting all Unix Terminal commands.}  % arguments 3 to 6 can be left empty
+\cventry{}{Email Server}{Java}{github.com/osterhagen/Email\textunderscore Server}{}{Created a command line style email server that could store password protected emails using different internal storage mechanisms that had a level of security while still being to be SQL friendly.}  % arguments 3 to 6 can be left empty
+
+% Work 
+
+\section{Work Experience}
+\cventry{Summer 2015}{Research Internship}{Angelhack}{San Francisco, CA}{}{Assisted in the development, revision, and execution, of the main submission system used for Angelhack hackathons.}  % arguments 3 to 6 can be left empty
+\cventry{2014-2015}{Web Developer}{OPEN SV (Organization of Pakistani Entrepreneurs)}{Sunnyvale, CA}{}{Worked on front-end development platforms for multiple event websites along with beefing up back-end architecture to accommodate the eventbrite submission systems. }  % arguments 3 to 6 can be left empty
+
+
+\section{Technical Experience}
+\cventry{}{Programming / Scripting Languages}{}{}{}{Proficient: C/C++, Java, Assembly LaTeX, SQL, HTML/Jade, CSS/SASS, JS Framework \\ Familiar: Node.js, Angular.js, Python, Ruby/Ruby on Rails}
+\cventry{}{Programs / Systems / Frameworks}{}{}{}{Proficient: Linux /Unix Framework, IntelliJ, Raspberry Pi Architecture, Raspbian, codepen, Bloomberg Terminal, Android Studio, Git/GitHub.io, vim, emacs, TexPad  \\ Familiar: Mac OS Framework, ssh, Sublime, Chrome Apps, AWS, Wordpress API, ODB}	
+
+\section{Non-Technical Experience}
+\cventry{2016-Present}{Treasurer}{BoilerMake Executive Board (Purdue's Collegiate Hackathon)}{}{}{}  % arguments 3 to 6 can be left empty
+%\cventry{2015-Present}{Corporate Liaison}{BoilerMake Executive Board}{}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2016-Present}{Sponsorship/Partnership Comittee Member}{BoilerMake Executive Board}{}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2013-2015}{Chairman of Board – Youth Initiative}{OPEN SV}{}{}{o	Recipient of the Certificate of Recognition by the Executive Committee}  % arguments 3 to 6 can be left empty
+\cventry{2015-2016}{Assembly-member}{Purdue RHA (Residence Hall Association) Legislative Branch}{}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2015-2016}{Issues and Facilities Committee member}{Purdue RHA (Residence Hall Association)}{}{}{}  % arguments 3 to 6 can be left empty
+
+\vspace{-20pt}
+\end{document}
