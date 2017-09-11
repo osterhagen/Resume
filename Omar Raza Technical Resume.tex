@@ -1,96 +1,90 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 
 \begin{document}
 
-\header{omar }{raza}{developer} % Your name and current job title/field
+\header{Omar }{Raza}{\href{https://github.com/osterhagen}{github.com/osterhagen}   \href{mailto:razao@purdue.edu}{   razao@purdue.edu}} % Your name and current job title/field
 
-%----------------------------------------------------------------------------------------
-%	SIDEBAR SECTION
-%----------------------------------------------------------------------------------------
 
-\begin{aside} % In the aside, each new line forces a line break
-\section{contacts}
-\href{http://omarraza.xyz}{omarraza.xyz}
-+1 (408) 642 9642
-\href{mailto:razao@purdue.edu}{razao@purdue.edu}
-\href{http://github.com/osterhagen}{github.com/osterhagen}
-
-\section{languages}
-{\color{red} $\varheartsuit$} C++ 
-Java
-C\#, SQL
-JavaScript
-CSS3 \& HTML5
-and many more...
-\section{development stacks}
-{\color{red} $\varheartsuit$} \textbf{MEAN} \\(MongoDB, ExpressJS, AngularJS, NodeJS)
-\textbf{Microsoft}\\ (ASP.NET, .NET, SQL Server)
-\textbf{Bootstrap 3}\\ (CSS3, HTML5, and JavaScript)
-\section{development frameworks}
-{\color{red} $\varheartsuit$} Agile (SCRUM)
-SDLC
-\section{version control}
-{\color{red} $\varheartsuit$} GIT
-SVN
-\end{aside}
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
 \section{education}
 \begin{entrylist}
 %------------------------------------------------
 \entry
 {2015--2019}
-{Bachelors {\normalfont of Computer Science}}
+{Bachelors {\normalfont of Computer Science} }
 {Purdue University}
-{\emph{Specialization: Software Engineering} \\ \textbf{Relevant Course Work:} Data Structures in C++, Algorithms in Java, Systems Programming in C and SQL, Computer Architecture in C and Assembly \\ \textbf{Awards:} Purdue University Presidential Merit Scholarship}}
+{  Specialization: {\normalfont Software Engineering} \\\normalsize{\textbf{Relevant Course Work:} Software Engineering I, Web Applications Development, Data Structures and \\ Algorithms in Java, Systems programming in C/C++ \& SQL}}
 \end{entrylist}
+
+\vspace{-5pt}
 %----------------------------------------------------------------------------------------
 %	Experience
 %----------------------------------------------------------------------------------------
-\vspace{-7.5pt}
-\section{experience}
+\vspace{-5pt}
+\section{professional experience}
 \begin{entrylist}
 
 %------------------------------------------------
 
 \entry
-{      Ongoing}
-{Delphi Automative PLC - \normalfont Electronics and Safety Laboratory}
-{West Lafayette, IN}
-{Software Contractor
+{Winter 2018}
+{Software Engineer (Consultant)}
+{Delphi Automotive PLC, Electronics and Safety Laboratory}
+{West Lafayette, IN  
 \begin{itemize}
-\item Automation: Assisted a team of Mechanical and Electrical Engineers in created systems that were capable of handling both automatic and human inputs for the Self Driving Car.
-\item Visualization: Worked on team of over 30 software developers to create different interfaces and programs that would assist car manufactures in engine development (Chevrolet \& Audi)
+\item Working on the System Visualization and Optimization Team
+\end{itemize}}
 
-\end{itemize}}
-%
-%
-%
-%
+
 \entry
-{      Winter 2016}
-{pi lab}
-{Indianapolis, IN}
-{Member of Technical Staff - Associate Software Engineer
+{Current}
+{Undergraduate Teaching Assistant}
+{Purdue University}
+{West Lafayette, IN  
 \begin{itemize}
-\item Working on main product, Edwin the Duck, as a full stack web, and iOS developer
-\item Assisting on different projects from embedded sensor reading, low level SOC development, image recognition and modulation, and even \\ making emojis.
+\item Object Oriented Programming in Java 
+\item C Programming for Engineers
+\item Marketing \& Management for New Ventures
 \end{itemize}}
+
+
 \entry
-{Summer 2016}
-{AngelHack}
-{San Francisco, CA}
-{Software Engineering intern
+{Summer 2017}
+{Full Stack Web Developer, Intern}
+{Angelhack}
+{San Francisco, CA
 \begin{itemize}
-\item Assisted in the development of the Front end interface and migrated the main \\submission system used for Angelhack hackathons from a Microsoft Stack to a MEAN stack.
+\item Spearheaded migration of database platform from a .NET framework to a Node based system
+\item Assisted UI team in front end development on premier product (hackathon.io)
 \end{itemize}}
 \end{entrylist}
-\vspace{-10pt}
+\vspace{-5pt}
+
+
 %----------------------------------------------------------------------------------------
 %	Projects
 %----------------------------------------------------------------------------------------
-
+\vspace{-5pt}
 \section{projects}
 
 \begin{entrylist}
@@ -98,38 +92,68 @@ SVN
 %------------------------------------------------
 
 \entry
-{SlPR}
-{https://github.com/osterhagen/sublinearPatternRecognizer}
-{DEPLOYED}
-{Created a predictive algorithm under for a statistics professor that would \\ analyze different data sets and make conclusions about graphical patterns given the inputs.}
+{FULQRUM}
+{Project Manager and Backend Development Lead}
+{Progress: Sprint 2}
+{A Customer Service Analytics tool that allows small business owners the opportunity to analyze their businesses without having any prior technical knowledge}
 
 %------------------------------------------------
 
 \entry
-{Stock Pro}
-{Chrome App Store}
-{USABLE (Pre-Alpha)}
-{Stock Pro is a Web app that will allow the user to monitor markets and stocks on the DOW Jones. Created a regressive algorithm that analyzed different market patterns to quantify the permanence of a spike or crash in that respective market.}
+{WebKit}
+{Curriculum Engineer and Main Contributor}
+{Progress: USABLE(BETA)}
+{https://github.com/osterhagen/WebDevCheatSheet \\ A useful resource for novice web developers, covering a broad array of topics from Bootstrap to Object Oriented JavaScript}
 
 %------------------------------------------------
+\entry
+{Stock Pro}
+{Algorithm Engineer and API }
+{Final Sprint}
+{Uses a predictive algorithm to catalog how "emotional" investors are in a certain market by analyzing shifts in stock during a companies news cycles.}
 
 \end{entrylist}
-\vspace{-7.5pt}
+\vspace{-10pt}
+%------------------------------------------------
+\section{Skills}
+\begin{entrylist}
+
+\entry
+{Languages}
+{Proficient: \normalfont Java, HTML \& CSS, Javascript, LaTeX \\\textbf{Familiar:} C/C++, PHP, SQL }
+{}
+{}
+\vspace{-5pt}
+\entry
+{Frameworks}
+{Proficient: \normalfont Bootstrap, Node.js,  React  \\ \textbf{Familiar: \normalfont .NET, MongoDB, AWS}}
+{}
+{}
+\end{entrylist}
+
+\vspace{-5pt}
+\vspace{-5pt}
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
-\section{community involvment}
-\vspace{-5pt}
+\section{community involvement}
 \begin{entrylist}
 \entry
-{Present}
-{Mentor (Java)}
-{West Lafayette, IN}
-{CoderDojoAnvil}
+{Current}
+{Technical Consult and Startup Advisor}
+{Purdue University Department of Entrepreneurship}
+{Purdue University}
+
 \entry
-{Present}
-{Sponsorship Committee - Corporate Liason}
-{West Lafayette, IN}
-{BoilerMake (Purdue's Collegiate Hackathon)}
+{2016-2017}
+{Treasurer and Corporate Liaison}
+{BoilerMake}
+{Purdue University}
+
+
 \end{entrylist}
+%------------------------------------------------
+
+
+\vspace{-5pt}
 \end{document}
